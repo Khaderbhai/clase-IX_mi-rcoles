@@ -1,0 +1,47 @@
+header {
+    background-color:aquamarine;
+    height:150px;
+    position:relative
+}
+
+div {
+    width:80px;
+    position:absolute;
+}
+
+img {
+    width:100%;
+}
+
+nav {
+    position:absolute;
+    top:40px;
+    right:25px;
+}
+.botón {
+    background-color: brown;
+    border-radius:100px;
+}
+
+.botón:hover {
+    background-color:red;
+    transform:scale(3);
+    /*transform:rotate(45deg);*/
+    transform:translate(20px,20px);
+    transition:transform 400ms ease;
+}
+
+h1 {
+    position:absolute;
+    top:30px;
+    left:20px;
+}
+
+.título {
+    color:chartreuse;
+}
+
+.título:hover {
+    color:yellow;
+    text-decoration:line-through;
+}
